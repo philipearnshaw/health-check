@@ -1,0 +1,27 @@
+{
+  "name": "health-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10.5.3"
+  },
+  "dependencies": {
+    "body-parser": "1.18.x",
+    "express": "4.16.x",
+    "moment": "2.24.x",
+    "winston": "3.2.x"
+  },
+  "devDependencies": {
+    "expect": "24.x",
+    "mocha": "6.x",
+    "supertest": "4.x"
+  }
+}

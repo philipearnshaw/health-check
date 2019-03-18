@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  web:
+    container_name: health-check-service
+    build: .
+    ports:
+     - "8000:80"
+
